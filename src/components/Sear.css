@@ -1,0 +1,27 @@
+/* src/components/Seat.css */
+
+.seat-map {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.seat.available {
+  background-color: #b4da55;
+}
+
+.seat.booked {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
