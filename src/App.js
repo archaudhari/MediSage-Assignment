@@ -1,8 +1,8 @@
 // src/App.js
 
 import React from 'react';
-import './App.css';
-import SeatMap from './components/SeatMap';
+// import './App.css';
+import SeatMap from './components/Se';
 
 function App() {
   return (
