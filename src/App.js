@@ -1,11 +1,16 @@
-import React from "react";
-import "./style.css";
+// src/App.js
 
-export default function App() {
+import React from 'react';
+import './App.css';
+import SeatMap from './components/SeatMap';
+
+function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="App">
+      <h1>Seat Booking App</h1>
+      <SeatMap />
     </div>
   );
 }
+
+export default App;
