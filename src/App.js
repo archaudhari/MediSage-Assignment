@@ -1,16 +1,11 @@
-// src/App.js
+import React, { Component } from 'react';
+import BookMySeats from './components/BookMySeats';
 
-import React from 'react';
-// import './App.css';
-import SeatMap from './components/Se';
-
-function App() {
-  return (
-    <div className="App">
-      <h1>Seat Booking App</h1>
-      <SeatMap />
-    </div>
-  );
-}
-
+class App extends Component {
+    render () {
+        return (
+            <BookMySeats/>
+        );
+    }
+};
 export default App;
